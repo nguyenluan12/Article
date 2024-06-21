@@ -203,6 +203,8 @@
     width: 100%;
     justify-items: center;
     align-items: center;
+    justify-content: center;
+    
 }
 .para {
     width : 640px
@@ -217,11 +219,12 @@
 }
 .newh1 {
     width:640px;
-    font-family: 'SF Pro Text Semi Bold';
+    font-family: 'SF Pro Text Semibold';
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 1000;
     line-height: 51.2px;
     text-align: left;
+
 
 }
 #img2{
@@ -315,7 +318,7 @@
     background-size: 4px 2px;
     background-repeat: repeat-x;
 }
-#avt2 {
+.avt2 {
     width: 70px;
     height: 70px;
 }
@@ -504,7 +507,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 0.5%;
+    gap: 0.8%;
     color: white;
     list-style-type: none;
     padding-top:18px ;
@@ -590,11 +593,14 @@
     #menu {
         display: none;
     }
+    #block4 {
+        padding-top: 30px;
+    }
     .none {
         display: none;
     }
     .none_before {
-        display: inline;
+        display: flex;
     }
     .header {
         height: 65px;
@@ -615,10 +621,31 @@
         
     }
     #block2 {
-        padding-top: 52px;
+        padding-top: 20px;
     }
     #img_block2{
         width: 100%;
+    }
+    .article-person {
+        width: 335px;
+        flex-direction: column;
+    }
+    .para {
+        width: 335px;
+        font-family: New York Medium;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27.2px;
+        text-align: left;
+
+    }
+    #list-para {
+        display: none;
+    }
+    .newh1 {
+        width: 335px;
+        font-size: 13px;
+        margin-bottom: -25px;
     }
     .font-newyork{
         font-family: New York Extra Large;
@@ -628,6 +655,31 @@
         text-align: center;
         
     }
+    #website {
+        display: grid;
+        width: 335px;
+        height: 44px;
+        grid-template-columns: auto auto auto;
+        
+    }
+    .tweeter {
+        
+    }
+    #whatsapp {
+        display: flex;
+    }
+
+    #info {
+        width: 335px;
+        justify-items: start;
+        
+    }
+    #comment-text {
+
+    }
+    #eyes-icon {
+        left:36%;
+    }
     #block3 p {
         max-width: 90%;
     }
@@ -635,8 +687,34 @@
         width: 100%;
 
     }
+    #img2 {
+        width: 100%;
+    }
+    #img-person {
+        width: 100%;
+    }
+    #caption-img2 {
+        width: 335px;
+        font-size: 13px;
+    }
+    #sign-up {
+        width: 100%;
+    }
+    #input {
+        width: 50%;
+    }
+    #sign-up h1 {
+        font-size: 29px;
+    }
+    #sign-up p {
+        font-size: 16px;
+        width: 306px;
+    }
+
+
     #block4  {
         width: 100%;
+        line-height: 25px;
 
     }
     #block4 p{
