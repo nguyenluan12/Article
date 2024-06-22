@@ -110,7 +110,7 @@
 .item:hover {
     border-bottom: 2px solid ;
 }
-#website {
+.website {
     display: grid;
     height: 44px;
     grid-template-columns: 70px 70px;
@@ -157,7 +157,7 @@
     justify-content: space-between;
     width: 640px;
 }
-#info {
+.info {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -173,7 +173,7 @@
 }
 #subinfor {
     padding-left: 16px;
-   
+    margin-top: -10px;
 
 }
 .name {
@@ -206,14 +206,16 @@
     justify-content: center;
     
 }
+
 .para {
-    width : 640px
+    width : 640px;
+    font-size: 20px;
+    line-height: 34px;
 }
 .new-york-medium{
     font-family: 'New York Small';
-    font-size: 20px;
     font-weight: 400;
-    line-height: 34px;
+    
     text-align: left;
 
 }
@@ -254,6 +256,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    font-size: 20px;
 }
 .list-para-item {
     display: flex;
@@ -285,7 +288,7 @@
     align-items: center;
     justify-content: center;
 }
-#whatsapp {
+.whatsapp {
     display: none;
 }
 .facetweet-with-text:hover{
@@ -302,6 +305,7 @@
     align-items: center;
     white-space: nowrap;
     padding-bottom: 20px;
+    width: 640px;
 }
 .dotted-border {
     position: relative;
@@ -322,15 +326,17 @@
     width: 70px;
     height: 70px;
 }
-#comment{
+.comment{
     padding-left: 25px;
     width: 530px;
-    font-size: 18px;
+    font-size: 17.5px;
     line-height: 25.6px;
+    letter-spacing: 5%;
+   
 }
 .article-person-comment{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -449,6 +455,8 @@
     height: 54px;
     margin-top: 20px;
     margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
 }
 #input {
     width: 380px;
@@ -655,7 +663,7 @@
         text-align: center;
         
     }
-    #website {
+    .website {
         display: grid;
         width: 335px;
         height: 44px;
@@ -663,19 +671,35 @@
         
     }
     .tweeter {
-        
+        border-right: 1px solid #EAEAEA;
     }
-    #whatsapp {
+    .whatsapp {
         display: flex;
+        justify-content: center;
     }
-
-    #info {
+    
+    .share {
+        display: flex;
+        justify-content: center;
+    }
+    #tag {
+        width: 335px;
+    }
+    .info {
         width: 335px;
         justify-items: start;
+        align-items: flex-start;
+        
         
     }
-    #comment-text {
-
+    .comment {
+        padding :0;
+    }
+    .comment-text {
+        
+        width: 100%;
+        margin-top: -20px;
+        font-size: 15px;
     }
     #eyes-icon {
         left:36%;
@@ -699,18 +723,20 @@
     }
     #sign-up {
         width: 100%;
+        border-right:0px ;
+        border-left: 0px ;
+        border-bottom: 2px solid;
     }
     #input {
-        width: 50%;
-    }
-    #sign-up h1 {
-        font-size: 29px;
+        width: 65%;
     }
     #sign-up p {
         font-size: 16px;
         width: 306px;
     }
-
+    #button-sign-up {
+        width: 108px;
+    }
 
     #block4  {
         width: 100%;
@@ -730,14 +756,22 @@
     }
     #article{
         font-size: 32px ;
-        padding-top: 56px;
+        padding-top: 45px;
     }
     .flex-items {
         
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        padding-bottom: 42px;
+        padding-bottom: 0px;
+    }
+    #sign-up-box {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #sign-up h1 {
+        width: 250px;
+        font-size: 29px;
     }
     .sf-pro-font {
         height: auto;

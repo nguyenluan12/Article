@@ -8,7 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
     <script src='main.js'></script>
 </head>
-<body>
+<>
     <div class="header">
        
             <img src="img/Logo.jpg" alt="logo">
@@ -39,7 +39,7 @@
     <div style="width: 100%;display:flex; justify-content:center; align-items: center;">
         <div class="article-person">
             
-            <div id="info">
+            <div class="info" style="justify-content:start;">
                 <img id="avt" src="img/avt.jpg" alt="avt">
                 <div id="subinfor">
                     <p class="name"class="SF-Pro-Text">Mika MAtikainen</p>
@@ -47,7 +47,7 @@
                 </div>
             </div>
 
-            <div id="website">
+            <div class="website">
                 <div class="facebook">
                     <img class="icon-website" src="img/facebook_icon.jpg" alt="facebook icon">
                 </div>
@@ -129,7 +129,7 @@
     <div class="textbox none" style="padding-top:10px;">
         <p class="para new-york-medium">Thanks for reading,<br>Mika </p>
     </div>
-    <div class="textbox">
+    <div class="textbox none">
         <div id="website-with-text">
             <div class="facetweet-with-text" style="border-right: 1px solid #EAEAEA;" >
                 <img class="icon-website" src="img/facebook_icon.jpg" alt="facebook icon">
@@ -140,29 +140,48 @@
                 <img class="icon-website" src="img/tweeter_icon.jpg" alt="tweeter icon">
                 <p class="none sf-medium" style="padding-left: 15px;">Share on Twitter</p>
             </div>
-            <div id="whatsapp">
-                <img class="icon-website" src="img/whatsapp.jpg" alt="tweeter icon">
+            <div Class="whatsapp none_before">
+                <img class="icon-website none_before" src="img/whatsapp.jpg" alt="tweeter icon">
                 
             </div>
 
         </div>
     </div>
+    <div class="share none_before" style="padding-top:10px;">
+        <div style="width: 335px;" class="sf-medium" >
+            Share:
+            </div>
+    </div>
+    <div class="none_before" style="width: 100%;display:flex; justify-content:center; align-items: center;">
 
-    <div class="textbox" style="padding-top:10px;">
-        <div id="tag" class="para sf-medium dotted-border" >
+        <div class="website none_before">
+            <div class="facebook">
+                <img class="icon-website" src="img/facebook_icon.jpg" alt="facebook icon">
+            </div>
+            
+            <div class="tweeter">
+                <img class="icon-website" src="img/tweeter_icon.jpg" alt="tweeter icon">
+            </div>
+            <div class="whatsapp">
+                <img class= "icon-website" src="img/whatsapp.jpg" alt="whatsapp icon">
+            </div>
+        </div>
+    </div>
+    <div class="textbox " style="padding-top:10px;">
+        <div id="tag" class=" dotted-border sf-medium" >
             Tags: <p style="border-bottom: 2px solid;cursor: pointer;">product design</p>
              , <p style="border-bottom: 2px solid;cursor: pointer;">culture</p>
             </div>
     </div>
    
-    <div style="width: 100%;display:flex; justify-content:center; align-items: center;">
-        <div class="article-person-comment">
+    <div class="none" style="width: 100%;display:flex; justify-content:center; align-items: center;">
+        <div class="article-person-comment none">
             
-            <div id="info">
-                <img class="avt2 none" src="img/avt.jpg" alt="avt">
-                <div id="comment">
-                    <p id="comment-text new-york-medium">
-                        <img class="avt2" src="img/avt.jpg" alt="avt">
+            <div class="info">
+                <img class="avt2" src="img/avt.jpg" alt="avt">
+                <div class="comment">
+                    <p class="comment-text new-york-medium">
+                        <!-- <img class="avt2 none_before" src="img/avt.jpg" alt="avt"> -->
                         <b class="name"class="SF-Pro-Text">Mika MAtikainen</b>
                         is a Design Founder & Advisor, Berlin School of Creative Leadership 
                         Executive MBA participant, Zippie advisor
@@ -172,6 +191,25 @@
             </div>
 
         </div>
+    </div>
+    <!-- comment sau khi responsive -->
+    <div style="width: 100%;display:flex; justify-content:center; align-items: center;">
+        <div class="article-person-comment none_before">
+            <div class="info">
+                <img class="avt2" src="img/avt.jpg" alt="avt">
+                <div class="comment">
+                    <p class="comment-text new-york-medium">
+                        <!-- <img class="avt2 none_before" src="img/avt.jpg" alt="avt"> -->
+                        <b class="name"class="SF-Pro-Text">Mika MAtikainen</b>
+                        is a Design Founder & Advisor, Berlin School of Creative Leadership 
+                        Executive MBA participant, Zippie advisor
+                        , Wolt 
+                    </p>
+                </div>
+            </div>
+            <p style="margin-left:-70px;margin-top:-12px">co-founder, and Nordic Rose stakeholder.</p>
+        </div>
+        
     </div>
     
         <div id="eyes-line">
@@ -196,7 +234,7 @@
             <p class="sf-pro-font">Hello world, or, in other words, why this blog exists </p>
         </div>
 
-        <div class="flex-items none">
+        <div class="flex-items ">
             <img src="img/1.png" alt="picture">
             <p class="sf-pro-font" style="width: 282px;">Here are some things you should know regarding how we work </p>
         </div>
@@ -213,7 +251,7 @@
         
 
         <!-- kết thúc chèn  -->
-        <div class="flex-items">
+        <div class="flex-items none">
             <img src="img/12.png" alt="picture">
             <p class="sf-pro-font">How modern remote working tools get along with Old School Cowboy's methods </p>
         </div>
